@@ -56,7 +56,7 @@
 
 <section>
     <div class="container">
-         <div id="middle" style="font-size: 150px"><center><a href="new.html" target="blank">N<br>E<br>W</a></center></div>
+         <div id="middle" style="font-size: 200px"><center><a href="create_page.html" target="blank">N<br>E<br>W</a></center></div>
         <div id="left" style="font-size: 50px"><center><h1><strong>VIEW</strong></h1></center>
 <center>
 <?php
@@ -80,7 +80,7 @@ $fp=fopen("page_record.txt","r");
 $buffer=fgets($fp);
 while($buffer)
     {   
-        echo "<a href=".$buffer.">".$buffer."</a><br></br>";
+        echo "<a href=edit_pages.php?source=".$buffer.">".$buffer."</a><br></br>";
         $buffer=fgets($fp);
     }
 fclose($fp);
