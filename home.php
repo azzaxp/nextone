@@ -56,7 +56,7 @@
 
 <section>
     <div class="container">
-         <div id="middle" style="font-size: 200px"><center><a href="new.html" target="blank">N<br>E<br>W</a></center></div>
+         <div id="middle" style="font-size: 150px"><center><a href="new.html" target="blank">N<br>E<br>W</a></center></div>
         <div id="left" style="font-size: 50px"><center><h1><strong>VIEW</strong></h1></center>
 <center>
 <?php
