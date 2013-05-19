@@ -4,9 +4,9 @@ if($_POST['page']){
     if (!$fp)
         echo 'open file error\n';
     fputs($fp,$_POST['page']);
-    echo 'Yeah Bitch';
+    echo 'Succeed!';
 }
 else{
-    echo 'No Bitch';
+    echo 'Failed';
 }
 ?>
